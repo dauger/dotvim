@@ -13,6 +13,7 @@ Bundle 'gmarik/vundle'
 " original repos on GitHub
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-markdown'
+Bundle 'bling/vim-airline'
 
 " vim-scripts repos
 " Bundle 'L9'
@@ -59,3 +60,8 @@ set nowrap                " don't wrap text
 
 imap jj <Esc>
 
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+      let g:airline_symbols = {}
+  endif
+  let g:airline_symbols.space = "\ua0"
