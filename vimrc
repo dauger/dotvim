@@ -12,6 +12,7 @@ Bundle 'gmarik/vundle'
 "
 " original repos on GitHub
 Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-markdown'
 
 " vim-scripts repos
 " Bundle 'L9'
